@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ReveliNow.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize]
     public class AppointmentController : ControllerBase
     {
         private static readonly List<Appointment> Appointments = new List<Appointment>

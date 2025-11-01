@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Olivi\\OneDrive\\Bestanden\\avans\\blok5&6\\Eindopdracht\\C#\\ReveliNow\\ReveliNow\\ReveliNow.csproj": {}
+    "C:\\Users\\Balk\\Documents\\avans\\blok5&6\\Eindopdracht\\Fullstack_revalinow\\C#\\ReveliNow\\ReveliNow\\ReveliNow.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Olivi\\OneDrive\\Bestanden\\avans\\blok5&6\\Eindopdracht\\C#\\ReveliNow\\ReveliNow\\ReveliNow.csproj": {
+    "C:\\Users\\Balk\\Documents\\avans\\blok5&6\\Eindopdracht\\Fullstack_revalinow\\C#\\ReveliNow\\ReveliNow\\ReveliNow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Olivi\\OneDrive\\Bestanden\\avans\\blok5&6\\Eindopdracht\\C#\\ReveliNow\\ReveliNow\\ReveliNow.csproj",
+        "projectUniqueName": "C:\\Users\\Balk\\Documents\\avans\\blok5&6\\Eindopdracht\\Fullstack_revalinow\\C#\\ReveliNow\\ReveliNow\\ReveliNow.csproj",
         "projectName": "ReveliNow",
-        "projectPath": "C:\\Users\\Olivi\\OneDrive\\Bestanden\\avans\\blok5&6\\Eindopdracht\\C#\\ReveliNow\\ReveliNow\\ReveliNow.csproj",
-        "packagesPath": "C:\\Users\\Olivi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Olivi\\OneDrive\\Bestanden\\avans\\blok5&6\\Eindopdracht\\C#\\ReveliNow\\ReveliNow\\obj\\",
+        "projectPath": "C:\\Users\\Balk\\Documents\\avans\\blok5&6\\Eindopdracht\\Fullstack_revalinow\\C#\\ReveliNow\\ReveliNow\\ReveliNow.csproj",
+        "packagesPath": "C:\\Users\\Balk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Balk\\Documents\\avans\\blok5&6\\Eindopdracht\\Fullstack_revalinow\\C#\\ReveliNow\\ReveliNow\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Olivi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Balk\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,12 +37,25 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.28, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            },
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[4.36.0, )"
@@ -78,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Olivi\\.dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

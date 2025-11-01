@@ -11,6 +11,10 @@
       <PackageReference Include="Selenium.WebDriver" Version="4.36.0" />
       <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.4" />
       <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="9.0.4" />
+      <!-- Added for data access and JWT authentication -->
+      <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+      <PackageReference Include="Dapper" Version="2.1.28" />
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.10" />
     </ItemGroup>
 
 </Project>

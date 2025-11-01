@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReveliNow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11490c4aed9c10e4ea1fd29fc3fd5daa803ca901")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReveliNow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReveliNow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
