@@ -15,7 +15,12 @@
     "lint": "run-s lint:*"
   },
   "dependencies": {
-    "vue": "^3.5.22"
+    "vue": "^3.5.22",
+    "pinia": "^2.1.9",
+    "axios": "^1.4.0",
+    "vue-router": "^4.2.5",
+    "chart.js": "^4.4.0",
+    "date-fns": "^2.30.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
